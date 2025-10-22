@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sainandan Mannepalli - AI/ML Engineer & Full-Stack Developer specializing in Generative AI, Deep Learning, and Modern Web Technologies">
+    <meta name="keywords" content="AI Engineer, Machine Learning, Deep Learning, React Developer, Next.js, Python, Generative AI">
+    <meta name="author" content="Sainandan Mannepalli">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Sainandan Mannepalli - AI/ML Engineer Portfolio">
+    <meta property="og:description" content="Results-driven AI engineer with expertise in machine learning, chatbot development, and modern web technologies">
+    <meta property="og:type" content="website">
+    
+    <title>Sainandan Mannepalli | AI/ML Engineer & Full-Stack Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cursor Effect -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <span class="logo-text">SM</span>
+                    <span class="logo-dot">.</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="gradient-bg"></div>
+            <div class="grid-pattern"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <p class="hero-greeting">Hi there, I'm</p>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Sainandan Mannepalli</span>
+                </h1>
+                <div class="typing-container">
+                    <h2 class="hero-subtitle">
+                        <span class="typing-text"></span>
+                        <span class="cursor-blink">|</span>
+                    </h2>
+                </div>
+                <p class="hero-description">
+                    Results-driven AI and software development enthusiast with expertise in 
+                    <span class="highlight">machine learning</span>, 
+                    <span class="highlight">generative AI</span>, and 
+                    <span class="highlight">modern web technologies</span>. 
+                    Passionate about developing innovative AI solutions that enhance user experiences.
+                </p>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/sainandan2005/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/sainandan2005" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:sainandan205@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                <div class="image-container">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-brain"></i>
+                        <span>AI/ML</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-code"></i>
+                        <span>Full Stack</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-cloud"></i>
+                        <span>Cloud</span>
+                    </div>
+                    <div class="profile-placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Get To Know More</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Education</h3>
+                            <p>B.Tech</p>
+                            <span class="info-detail">Koneru Lakshmaiah Education Foundation</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Certifications</h3>
+                            <p>Microsoft Azure AI Fundamentals</p>
+                            <span class="info-detail">June 2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Cloud Expertise</h3>
+                            <p>AWS Certified Cloud Practitioner</p>
+                            <span class="info-detail">Valid: May 2025 - May 2028</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-description" data-aos="fade-left">
+                    <p class="about-text">
+                        I'm an undergraduate student passionate about <strong>Artificial Intelligence</strong> 
+                        and <strong>software development</strong>, with a strong foundation in machine learning, 
+                        deep learning, and modern web technologies.
+                    </p>
+                    <p class="about-text">
+                        My journey includes participation in prestigious programs like <strong>Stanford's Code In Place</strong>, 
+                        <strong>Amazon ML Summer School</strong>, and <strong>JPMC Code For Good Hackathon</strong>. 
+                        Currently serving as <strong>Cloud Computing Lead</strong> at Google Developer Groups on Campus KLHB, 
+                        where I mentor students and organize technical workshops.
+                    </p>
+                    <p class="about-text">
+                        Through internships at <strong>AI Quantum Smart Solutions</strong> and <strong>Igebra.ai</strong>, 
+                        I've gained hands-on experience in image processing, conversational AI, and building AI-powered 
+                        tools using cutting-edge frameworks. I specialize in developing <strong>Generative AI applications</strong>, 
+                        implementing <strong>deep learning algorithms</strong>, and creating full-stack solutions with 
+                        React, Next.js, and modern cloud platforms.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Internships</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Cloud Certs</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements & Programs Section -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Recognition & Programs</span>
+                <h2 class="section-title">Achievements & Leadership</h2>
+            </div>
+            
+            <div class="achievements-grid">
+                <!-- Stanford Code In Place -->
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon stanford">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Stanford Code In Place</h3>
+                        <p class="achievement-org">Stanford University</p>
+                        <p class="achievement-year">2025</p>
+                        <p class="achievement-description">
+                            Selected for Stanford's prestigious global coding education program, 
+                            learning Python programming fundamentals from Stanford instructors.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- GDG Leadership -->
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="achievement-icon google">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Cloud Computing Lead</h3>
+                        <p class="achievement-org">Google Developer Groups on Campus KLHB</p>
+                        <p class="achievement-year">Current</p>
+                        <p class="achievement-description">
+                            Leading cloud computing initiatives, organizing workshops, and mentoring 
+                            students in cloud technologies and modern development practices.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Amazon ML Summer School -->
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="achievement-icon amazon">
+                        <i class="fab fa-amazon"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">ML Summer School</h3>
+                        <p class="achievement-org">Amazon</p>
+                        <p class="achievement-year">2025</p>
+                        <p class="achievement-description">
+                            Participated in Amazon's intensive machine learning program, gaining 
+                            advanced knowledge in ML algorithms, neural networks, and real-world applications.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- JPMC Hackathon -->
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="achievement-icon jpmc">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Code For Good Hackathon</h3>
+                        <p class="achievement-org">JP Morgan Chase & Co.</p>
+                        <p class="achievement-year">2025</p>
+                        <p class="achievement-description">
+                            Participated in JPMC's social impact hackathon, developing technology 
+                            solutions for non-profit organizations and communities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">My Journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+            </div>
+            
+            <div class="timeline">
+                <!-- Igebra.ai -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>February 2025 — July 2025</span>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">AI Intern</h3>
+                                    <p class="experience-company">Igebra.ai</p>
+                                </div>
+                                <div class="experience-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                            </div>
+                            <ul class="experience-description">
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="experience-text">Developed AI Tools using <strong>React.js</strong> and <strong>Next.js</strong> Framework with cutting-edge web technologies</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="experience-text">Utilized <strong>Vercel AI SDK</strong> to manage backend API routing, ensuring efficient and scalable AI service integration</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="experience-text">Implemented modern UI/UX patterns for AI-powered applications, enhancing user engagement and interaction</span>
+                                </li>
+                            </ul>
+                            <div class="experience-tags">
+                                <span class="tag">React.js</span>
+                                <span class="tag">Next.js</span>
+                                <span class="tag">Vercel AI SDK</span>
+                                <span class="tag">API Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AI Quantum Smart Solutions -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>June 2024 — July 2024</span>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">Intern</h3>
+                                    <p class="experience-company">AI Quantum Smart Solutions</p>
+                                </div>
+                                <div class="experience-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                            </div>
+                            <ul class="experience-description">
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="experience-text">Worked extensively on <strong>Image Processing</strong>, applying advanced computer vision techniques to real-world datasets</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="experience-text">Implemented <strong>Machine Learning</strong> and <strong>Deep Learning Algorithms</strong> for pattern recognition and predictive modeling</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="experience-text">Developed skills in applying deep learning techniques to solve complex business problems and optimize model performance</span>
+                                </li>
+                            </ul>
+                            <div class="experience-tags">
+                                <span class="tag">Image Processing</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Deep Learning</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">What I've Built</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Stark.AI Story Generator -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="View Source Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Stark.AI Story Generator</h3>
+                            <span class="project-label featured">Featured</span>
+                        </div>
+                        
+                        <p class="project-description">
+                            An intelligent AI chatbot that creates dynamic, adaptive stories using 
+                            <strong>Google's Gemini API</strong>. The system integrates user inputs 
+                            with contextual memory to generate personalized narratives in real-time.
+                        </p>
+                        
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Context-Aware AI</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-memory"></i>
+                                <span>Memory Integration</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-palette"></i>
+                                <span>User-Friendly UI</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-tech">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Flask</span>
+                            <span class="tech-badge">Gemini API</span>
+                            <span class="tech-badge">NLP</span>
+                        </div>
+                        
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Dynamic Storytelling</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-rocket"></i>
+                                <span>Production Ready</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- EduSphere -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://edusphere-ecru.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="View Source Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">EduSphere</h3>
+                            <span class="project-label">AI-Powered</span>
+                        </div>
+                        
+                        <p class="project-description">
+                            Revolutionary educational platform leveraging <strong>Gemini API</strong> and 
+                            <strong>YouTube Data API v3</strong> to generate comprehensive, topic-based 
+                            learning content with AI-generated insights and curated video recommendations.
+                        </p>
+                        
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-robot"></i>
+                                <span>AI Content Generation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-video"></i>
+                                <span>Video Curation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Enhanced Learning</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-tech">
+                            <span class="tech-badge">Gemini API</span>
+                            <span class="tech-badge">YouTube API</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Web APIs</span>
+                        </div>
+                        
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-magic"></i>
+                                <span>Smart Recommendations</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-sync"></i>
+                                <span>Dynamic Rendering</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">My Expertise</span>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-category" data-aos="fade-up">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Machine Learning</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <span class="skill-name">Generative AI</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <span class="skill-name">Deep Learning</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <span class="skill-name">NLP</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-image"></i>
+                            </div>
+                            <span class="skill-name">Image Processing</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <span class="skill-name">Java</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-node"></i>
+                            </div>
+                            <span class="skill-name">TypeScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Technologies</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <span class="skill-name">Next.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <span class="skill-name">Azure AI</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <span class="skill-name">Vercel</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">
+                    I'm always interested in hearing about new opportunities, 
+                    collaborations, or just having a chat about AI and technology.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:sainandan205@gmail.com">sainandan205@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+919505790909">+91 9505790909</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Hyderabad, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/sainandan2005/" target="_blank" class="social-btn linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/sainandan2005" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Collaboration">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <h3 class="footer-logo">SM<span>.</span></h3>
+                    <p class="footer-description">
+                        Building the future with AI, one line of code at a time.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/sainandan2005/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/sainandan2005" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:sainandan205@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#achievements">Achievements</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="mailto:sainandan205@gmail.com">Email Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sainandan Mannepalli. All rights reserved.</p>
+                <p class="footer-credit">Designed & Developed with <i class="fas fa-heart"></i> by Sainandan</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
